@@ -110,3 +110,26 @@
   .flower-portrait{transition-duration:.52s!important}
   .flower-slot.is-dissolving .dust-particle{animation-duration:.72s!important}
 }
+
+/* Dark theme */
+.bouquet-photo{filter:drop-shadow(0 14px 9px rgba(0,0,0,.35))}
+.wish-card-trigger{border-color:#62404b;background:rgba(45,34,44,.97);color:#f0a3b0;box-shadow:0 5px 14px #0005}
+.wish-card-trigger:hover{background:#392731;box-shadow:0 7px 17px #0007}
+.wish-card-icon{stroke:#e293a2}
+.wish-card-heart{fill:#a95870;stroke:#e293a2}
+.wish-card-trigger:hover .wish-card-icon{stroke:#ffb5c0}
+.wish-dialog{border-color:#704555;background:linear-gradient(145deg,#2d222c 0%,#30222f 52%,#382431 100%);color:#f1e4e8;box-shadow:0 24px 80px #0009,0 0 0 5px #54334088}
+.wish-dialog::before{border-color:#714555}
+.wish-dialog::backdrop{background:#09070dbb}
+.wish-dialog-close{border-color:#3a2631;background:#b84970;color:#fff;box-shadow:0 2px 7px #0006}
+.wish-dialog-close:hover{background:#d45e87}
+.wish-letter-ornament{color:#aeb9f1}
+.wish-letter-ornament span{color:#e4b660}
+.wish-dialog-kicker{color:#e29ab0}
+.wish-dialog h2{color:#f0c3d1}
+.wish-letter-body{color:#e1ccd6}
+.wish-letter-signature{color:#d7b8c5}
+.wish-letter-signature strong{color:#f09aaa}
+.wish-letter-flower{color:#c87995}
+.flower-portrait{background:#30262b;border-color:#6d5057}
+.bouquet-button .photo-pin .flower-portrait{background:#30262b}
